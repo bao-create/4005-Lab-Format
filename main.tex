@@ -1,0 +1,66 @@
+%\title{Overleaf Memo Template}
+% Extending the texMemo package by Rob Oakes
+\documentclass[a4paper,11pt]{MeLabtexMemo}
+\usepackage[english]{babel}
+\usepackage{graphicx,caption,csquotes,indentfirst,appendix}
+\captionsetup{justification=raggedright, singlelinecheck=false,format = hang,labelfont=bf}
+\usepackage[style = ieee, citestyle = ieee]{biblatex}
+
+\addbibresource{Exported_Items.bib} %change this to your .bib file These can be obtained by any citation manager. Export as biblatex file
+
+%% Edit the header section here. To include your
+%% own logo, upload a file via the files menu.
+\memoto{GTA, Change me} 
+\memofrom{You}
+\memocc{Dr.Rice, Lab Partner}
+\memosubject{Title}
+%\memodate{\today}
+\address{change me \linebreak
+	change me\linebreak
+	\today
+}
+
+%\logo{\includegraphics[width=0.3\textwidth]{Overleaf-logo.jpg}}
+
+\begin{document}
+\maketitle
+
+
+
+\section{Summary}
+I have attempted to use some of the major functions in \LaTeX to write this document. In addition I tried to format things as close to rice's requirements as possible. \textbf{Always proofread your work.}  A full overview of \LaTeX is available on overleaf documentation also just google. There are lot of communities that use this. \par
+ use \cite{noauthor_phase_nodate} to cite from the .bib file
+\begin{figure}[h] %use [h] after the \being{figure} to keep figure where you want it
+    \centering
+    \includegraphics[scale=.75]{brake caliper.PNG}
+    \caption{Im a caption}
+    \label{fig:my_label}
+\end{figure}
+\section{Introduction and Background}
+
+im a reference to \ref{fig:my_label} use me to reference figures ;lkadsflk;jasdf;lkajsd;lkjasddf;lkjasdd;
+flkjasdjkjlkhjklhjklhlkjhkljhkljdf;lkjasdf;lkj \par %see this for paragraph stuff
+
+latex makes inline equations easy
+\begin{math}
+    E = \frac{mc^2}{1}
+\end{math}
+dslakfjal;sdfl;asjdf;lkajsdf \par
+also numbered equations
+\begin{equation} %note the difference being equation and math
+    e = v_{be} * I^{re}
+\end{equation}
+\section{Results and Discussion}
+
+\subsection{Wow subsections}
+\subsubsection{even further}
+
+
+\section{Conclusions}
+\appendix
+\section{Appendix I}
+ 
+\printbibliography % I make the reference section
+
+
+\end{document}
