@@ -9,11 +9,16 @@
 \ProvidesClass{MeLabtexMemo}[2010/07/31 - Simple Memo Class, Including Logo]
 \RequirePackage{palatino}
 
+
 % Load the Base Class
 \LoadClassWithOptions{article}
 
 % Begin Requirements
 \RequirePackage{ifthen}
+\RequirePackage[english]{babel}
+\RequirePackage{graphicx,caption,csquotes,indentfirst,appendix}
+\captionsetup{justification=raggedright, singlelinecheck=false,format = hang,labelfont=bf}
+\RequirePackage[style = ieee, citestyle = ieee]{biblatex}
 
 
 % Specialized memo Commands (To, From, Subject, Logo, Letterhead Address)
