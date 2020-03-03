@@ -16,7 +16,7 @@
 % Begin Requirements
 \RequirePackage{ifthen}
 \RequirePackage[english]{babel}
-\RequirePackage{graphicx,caption,csquotes,indentfirst,appendix}
+\RequirePackage{graphicx,caption,csquotes,indentfirst,appendix,lscape,longtable}
 \captionsetup{justification=raggedright, singlelinecheck=false,format = hang,labelfont=bf}
 \RequirePackage[style = ieee, citestyle = ieee]{biblatex}
 
