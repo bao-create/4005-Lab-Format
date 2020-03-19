@@ -16,10 +16,11 @@
 % Begin Requirements
 \RequirePackage{ifthen}
 \RequirePackage[english]{babel}
-\RequirePackage{graphicx,caption,csquotes,indentfirst,appendix,lscape,longtable}
+\RequirePackage{graphicx,caption,csquotes,indentfirst,appendix,lscape,longtable,float}
 \RequirePackage[capitalize]{cleveref}
 \captionsetup{justification=raggedright, singlelinecheck=false,format = hang,labelfont=bf}
 \RequirePackage[style = ieee, citestyle = ieee]{biblatex}
+
 
 
 % Specialized memo Commands (To, From, Subject, Logo, Letterhead Address)
