@@ -9,6 +9,8 @@ Make sure to pay attention to the options. I have loaded lscape and longtable in
 
 To use with overleaf not as an example, make a new project, then add a file, choose external source. Paste this link https://raw.githubusercontent.com/bao-create/4005-Lab-Format/master/MeLabtexMemo.cls
 
-click create. then change the preamble to what is in the main.tex in this repo. more infomation on latex in general is availible on overleaf
+click create. then change the preamble to what is in the main.tex in this repo. more infomation on latex in general is on overleaf's website.
 
 this class adds several packages most of which are formatting but a few to note are the cleverref package (\cref{}) which should be used in place of \ref{} and biblatex which should be used by adding \addbibresource{"bib file name"}. and \printbibliography. These cite and print the bibliogrpahy in IEEE style. 
+
+If you encounter any issues please leave a ticket, or take a pass at fixing them. If you want some more functioanlty please suggest it or try implementing it in a different branch. 
