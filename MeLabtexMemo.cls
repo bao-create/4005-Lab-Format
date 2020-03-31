@@ -20,6 +20,7 @@
 \RequirePackage[capitalize]{cleveref}
 \captionsetup{justification=raggedright, singlelinecheck=false,format = hang,labelfont=bf}
 \RequirePackage[style = ieee, citestyle = ieee]{biblatex}
+\RequirePackage{matlab-prettifier}
 
 
 
