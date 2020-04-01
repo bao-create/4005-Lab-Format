@@ -5,12 +5,16 @@ Main.tex is an example code for Latex showing off some key things and how to use
 
 
 Becareful with tables, lots of weird stuff happens with them. Tables are special and a pain in the ass. use https://www.tablesgenerator.com/
-Make sure to pay attention to the options. I have loaded lscape and longtable in the class
+Make sure to pay attention to the options. I have loaded lscape and longtable in the class so dont worry about adding the \usepackage commands. You might need to add the booktabs package.
 
-To use with overleaf not as an example, make a new project, then add a file, choose external source. Paste this link https://raw.githubusercontent.com/bao-create/4005-Lab-Format/master/MeLabtexMemo.cls
+To use with overleaf for real, make a new project, then click add a file, choose external source. Paste this link https://raw.githubusercontent.com/bao-create/4005-Lab-Format/master/MeLabtexMemo.cls
 
-click create. then change the preamble to what is in the main.tex in this repo. more infomation on latex in general is on overleaf's website.
+click create. then change the preamble (everything above \maketitle) in your main.tex to what is in the main.tex in this repo. Every so often (~1/week) click on the .cls file and up at the top click refresh. If the workspace was setup correctly it will automatically pull in the newest version of the .cls from here. 
 
-this class adds several packages most of which are formatting but a few to note are the cleverref package (\cref{}) which should be used in place of \ref{} and biblatex which should be used by adding \addbibresource{"bib file name"}. and \printbibliography. These cite and print the bibliogrpahy in IEEE style. 
+More infomation on latex in general is on overleaf's website.
+
+This class adds several packages most of which are formatting, but a few to note are the cleverref package (\cref{}) which should be used in place of \ref{} and biblatex which should be used by adding \addbibresource{"bib_file_name"}. and \printbibliography. These cite (\cite{}) and print the bibliogrpahy in IEEE style. For the .bib file use whatever citation manager you want (zotero, mendeley, etc) and then export the citations you have saved as a biblatex file. Put that in your overleaf workspace and put the file name into \addbibresource. then when you call type \cite it should suggest autocompletes for each of your citations.
+
+There is also support for directly adding MATLAB code to a document (e.g. Lab 4). Simply bring in the .m file to the overleaf workspace then call \lstlisting[style=matlab-editor]{<matlab_file_name.m>} where you want the code in the document. 
 
 If you encounter any issues please leave a ticket, or take a pass at fixing them. If you want some more functioanlty please suggest it or try implementing it in a different branch. 
