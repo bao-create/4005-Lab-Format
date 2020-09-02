@@ -18,3 +18,5 @@ This class adds several packages most of which are formatting, but a few to note
 There is also support for directly adding MATLAB code to a document (e.g. Lab 4). Simply bring in the .m file to the overleaf workspace then call \lstlisting[style=matlab-editor]{<matlab_file_name.m>} where you want the code in the document (i.e. the appendix). 
 
 If you encounter any issues please leave a ticket, or take a pass at fixing them. If you want some more functionality please suggest it or try implementing it in a different branch. When we get to 4006 i'll update this for those style guidelines.
+
+If you are still struggling with Latex or this tex class ping me in the ME Lounge Discord for some help.
